@@ -41,6 +41,12 @@ function mango(quantity, price){
 }
 
 function mango(quantity, price) {
+    let freeMangos = Math.floor(quantity / 3);
+    return (quantity - freeMangos) * price;
+}
+
+
+function mango(quantity, price) {
     let totalCost = 0;
     while (quantity > 0) {
         if (quantity > 2) {
