@@ -99,3 +99,5 @@ const quarterOf = (month) => {
         return 4
     }
 }
+
+const quarterOf2 = m => Math.ceil(m/3);
