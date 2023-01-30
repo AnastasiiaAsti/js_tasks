@@ -4,8 +4,11 @@ function booleanToString(b) {
     return b.toString()
 }
 
-//If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
-// Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+//If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
+//  The sum of these multiples is 23.
+// Finish the solution so that it returns the sum of all the multiples of 3 or 5 below
+//  the number passed in.Additionally, if the number is negative, return 0(for languages that
+// do have them).
 
 function solution(number) {
     let result = 0;
@@ -18,7 +21,8 @@ function solution(number) {
     return result
 }
 
-// Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+// Create a function that takes an integer as an argument and returns "Even" for even numbers
+//  or "Odd" for odd numbers.
 
 function evenOrOdd(number) {
     if (number % 2 === 0) {
@@ -108,3 +112,10 @@ const quarterOf = (month) => {
 const quarterOf2 = m => Math.ceil(m / 3);
 
 
+// You are given two interior angles (in degrees) of a triangle.
+// Write a function to return the 3rd.
+
+function otherAngle(a, b) {
+    let c = 180 - (a + b)
+    return c
+}
