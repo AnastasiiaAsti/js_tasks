@@ -25,3 +25,7 @@ function evenOrOdd(number) {
         return 'Even'
     } else return 'Odd'
 }
+
+function evenOrOdd2(number) {
+    return number % 2 ? 'Odd' : 'Even'
+}
