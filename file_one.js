@@ -183,3 +183,16 @@ function litres(time) {
     let liters = time * 0.5
     return parseInt(liters)
 }
+
+
+// Debug function getSumOfDigits that takes positive integer to calculate sum 
+// of its digits.Assume that argument is an integer.
+
+function getSumOfDigits(integer) {
+    let sum = 0;
+    let digits = Math.floor(integer).toString();
+    for (let ix = 0; ix < digits.length; ix++) {
+        sum = sum + parseInt(digits[ix]);
+    }
+    return sum;
+}
