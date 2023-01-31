@@ -3,8 +3,11 @@
 // the sum of the integers is 3635.
 
 function sumOfIntegersInString(s) {
+    // /[^0-9]/gi would identify NOT digits and we would split string at those 'not digits'
+    // so we have an array of empty strings and numbers
     const searchNumber = s.split(/[^0-9]/gi)
     let total = 0
+    // itterate over the bew array and add those digits up to total
     for (let i = 0; i < searchNumber.length; i++) {
         total += Number(searchNumber[i])
     }
