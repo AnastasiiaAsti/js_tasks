@@ -196,3 +196,5 @@ function getSumOfDigits(integer) {
     }
     return sum;
 }
+
+const getSumOfDigits2 = number => number.toString().split('').map(Number).reduce((a, b) => a + b)
