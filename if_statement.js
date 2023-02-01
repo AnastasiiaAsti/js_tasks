@@ -10,3 +10,9 @@ function _if(bool, func1, func2) {
         func2()
     }
 }
+
+// one liner
+
+function _if2(bool, func1, func2) {
+    return bool ? func1() : func2();
+}
