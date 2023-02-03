@@ -13,3 +13,9 @@ function findMultiples(integer, limit) {
     }
     return arr
 }
+
+// option 2
+
+function findMultiples2(int, limit) {
+    return Array(Math.floor(limit / int)).fill(1).map((x, i) => int * (i + 1));
+}
