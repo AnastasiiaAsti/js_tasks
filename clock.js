@@ -13,3 +13,10 @@
 // 0 <= h <= 23
 // 0 <= m <= 59
 // 0 <= s <= 59
+
+function past(h, m, s){
+    const hours = h * 60 * 60 * 1000;
+    const min = m * 60 * 1000;
+    const sec = s * 1000;
+    return hours + min + sec;
+}
