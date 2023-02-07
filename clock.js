@@ -20,3 +20,12 @@ function past(h, m, s){
     const sec = s * 1000;
     return hours + min + sec;
 }
+
+// option 2
+
+function past2(h, m, s){
+    const setTime = new Date().setHours(h, m, s);
+    const midnight = new Date().setHours(0, 0, 0);
+    
+    return Math.round(setTime - midnight);
+}
