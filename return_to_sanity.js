@@ -7,3 +7,10 @@ function mystery() {
     {sanity: 'Hello'};
   return results;
 }
+
+// solution
+
+
+function mystery() {
+  return { sanity: "Hello" };
+};
