@@ -23,3 +23,17 @@
 //     var celsius = (temperature) - 32 + (5 / 9)
 //     return temp
 // }
+
+
+function weatherInfo (temp) {
+    let c = convertToCelsius(temp)
+    if (c <= 0)
+      return (c + " is freezing temperature")
+    else
+      return (c + " is above freezing temperature")
+}
+
+function convertToCelsius(temp) {
+    let celsius = (parseInt(temp) - 32) * (5/9)
+    return celsius
+}
