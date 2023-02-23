@@ -2,3 +2,7 @@
 // Actually the sum of all their elements.I'll appreciate for your help.
 
 // P.S. Each array includes only integer numbers. Output is a number too.
+
+function arrayPlusArray(arr1, arr2) {
+    return arr1+arr2
+}
