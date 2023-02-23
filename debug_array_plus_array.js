@@ -18,4 +18,9 @@ function arrayPlusArray(arr1, arr2) {
       sum_arr2 += arr2[i]
     }
     return sum_arr1 + sum_arr2; //something went wrong
+}
+  
+function arrayPlusArray2(arr1, arr2) {
+    let arr = [...arr1, ...arr2];
+    return arr.reduce((a, b) => a + b);
   }
