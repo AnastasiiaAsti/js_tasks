@@ -20,10 +20,14 @@
 //   }
 
 
-function checkAlive (health) {
-    if (health>0) {
-      return true
+function checkAlive(health) {
+    if (health > 0) {
+        return true
     } else {
-      return false
+        return false
     }
-  }
+}
+
+function checkAlive2 (health) {
+    return health > 0 ? true : false;
+}
