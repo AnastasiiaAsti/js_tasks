@@ -17,3 +17,7 @@
 function capitalizeWord(word) {
     return word.charAt(0).toUpperCase() + word.slice(1);
 }
+
+function capitalizeWord2(word) {
+    return word[0].toUpperCase() + word.slice(1);
+}
