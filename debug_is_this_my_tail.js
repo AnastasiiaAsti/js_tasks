@@ -5,3 +5,12 @@
 // If the tail is right return true, else return false.
 
 // The arguments will always be non empty strings, and normal letters.
+
+function correctTail(bod, tail ;
+    
+    sub = body.substr(bodylength - (tail.length)
+    if sub = tail);
+      return true
+    }
+    else 
+      return false
