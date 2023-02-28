@@ -18,11 +18,12 @@
 // solution
 
 function correctTail(body, tail) {
+]let sub = body.substr(body.length - (tail.length));
     
-    let sub = body.substr(body - (tail.length))
-    
-    if (sub == tail) {
-        return false
+    if (sub === tail) {
+        return true;
     }
-    else return true
+    else {
+        return false;
+    }
 }
