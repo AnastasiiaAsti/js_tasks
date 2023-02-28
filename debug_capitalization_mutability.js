@@ -11,3 +11,9 @@
 //     word[0].toUpperCase();
 //     return word;
 // }
+
+// Solution
+
+function capitalizeWord(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+}
