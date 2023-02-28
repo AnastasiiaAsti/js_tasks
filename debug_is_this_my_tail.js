@@ -6,11 +6,23 @@
 
 // The arguments will always be non empty strings, and normal letters.
 
-function correctTail(bod, tail ;
+// function correctTail(bod, tail ;
     
-    sub = body.substr(bodylength - (tail.length)
-    if sub = tail);
-      return true
+//     sub = body.substr(bodylength - (tail.length)
+//     if sub = tail);
+//       return true
+//     }
+//     else 
+//       return false
+
+// solution
+
+function correctTail(body, tail) {
+    
+    let sub = body.substr(body - (tail.length))
+    
+    if (sub == tail) {
+        return false
     }
-    else 
-      return false
+    else return true
+}
