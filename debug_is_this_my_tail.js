@@ -18,7 +18,7 @@
 // solution
 
 function correctTail(body, tail) {
-]let sub = body.substr(body.length - (tail.length));
+let sub = body.substr(body.length - (tail.length));
     
     if (sub === tail) {
         return true;
@@ -26,4 +26,8 @@ function correctTail(body, tail) {
     else {
         return false;
     }
+}
+
+function correctTail2(body, tail) {  
+    return body.substr(body.length - tail.length) === tail;  
 }
