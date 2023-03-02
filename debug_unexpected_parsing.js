@@ -13,3 +13,5 @@
 // depending on the truth value of the argument is_busy.
 
 // But as you will see after clicking RUN or ATTEMPT this code has several bugs, please fix them.
+
+const getStatus = isBusy => ({ status: isBusy ? "busy" : "available" });
