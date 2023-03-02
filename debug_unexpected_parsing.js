@@ -15,3 +15,8 @@
 // But as you will see after clicking RUN or ATTEMPT this code has several bugs, please fix them.
 
 const getStatus = isBusy => ({ status: isBusy ? "busy" : "available" });
+
+function getStatus2(isBusy) {
+    var msg = (isBusy ? "busy" : "available");
+    return {status: msg}
+}
