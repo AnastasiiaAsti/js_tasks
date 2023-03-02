@@ -12,3 +12,7 @@
 // var replaceDots = function(str) {
 //     return str.replace(/./, '-');
 //   }
+
+let replaceDots = function(str) {
+    return str.replace(/\./g,'-');
+}
