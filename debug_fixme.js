@@ -16,3 +16,5 @@
 let replaceDots = function(str) {
     return str.replace(/\./g,'-');
 }
+
+let replaceDots2 = s=>s.split('.').join('-')
