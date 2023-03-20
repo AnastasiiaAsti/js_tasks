@@ -10,3 +10,12 @@
 
 // wrapper_obj["value"] == "my_wrapped_string"
 // Unfortunately, the code is not working as designed. Please fix the code so that it behaves as specified.
+
+// initial code
+
+// function wrap(value) {
+//     return
+//     {
+//       value:value 
+//     };
+//   }
