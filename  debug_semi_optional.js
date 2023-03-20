@@ -19,3 +19,8 @@
 //       value:value 
 //     };
 //   }
+
+function wrap(value) {
+    let obj = {}
+    return obj = {value:value}
+}
