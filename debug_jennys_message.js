@@ -3,3 +3,11 @@
 //     She added a special case to her function, but she made a mistake.
 
 // Can you help her?
+
+// initial function 
+
+// function greet(name){
+//     return "Hello, " + name + "!";
+//     if(name === "Johnny")
+//       return "Hello, my love!";
+//   }
