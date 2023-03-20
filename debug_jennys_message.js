@@ -20,3 +20,7 @@ function greet(name) {
     return "Hello, " + name + "!"
     }
 }
+
+function greet_one_liner(name){
+    return name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!"
+}
