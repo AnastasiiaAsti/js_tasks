@@ -16,3 +16,7 @@
 //   add(); //=> 0
 //   add(1,2,3); //=> 3
 //   add(1,4,-6,20); //=> 6
+
+function add(...args) {
+    return args.reduce((sum, value, index) => sum + value * (args.length - index), 0);
+}
