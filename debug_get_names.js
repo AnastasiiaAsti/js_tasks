@@ -14,4 +14,11 @@
 
 function getNames(data){
     return data.map(function(item){item.name});
+}
+  
+
+// Solution
+
+function getNames(data){
+    return data.map(item => item.name);
   }
