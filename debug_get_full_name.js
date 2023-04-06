@@ -33,7 +33,15 @@ class Dinglemouse{
     }
     
     getFullName(){
-      return this.firstName+" "+this.lastName
-    }
+      if(this.firstName === ''){
+        return `${this.lastName}`
+      }
+      if(this.lastName === ''){
+        return `${this.firstName}`
+      }
+      else {
+        return `${this.firstName} ${this.lastName}`
+        }
+      }
     
   }
