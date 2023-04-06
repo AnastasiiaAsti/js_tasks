@@ -7,3 +7,17 @@
 
 // Task
 // Fix the bug so we can all go home early.
+
+
+// initial code that needs debugging
+
+class Dinglemouse{
+
+    constructor( firstName, lastName ){
+    }
+    
+    getFullName(){
+      return firstName+" "+lastName
+    }
+    
+  }
