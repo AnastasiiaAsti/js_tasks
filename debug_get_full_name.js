@@ -20,4 +20,20 @@ class Dinglemouse{
       return firstName+" "+lastName
     }
     
+}
+  
+
+// adds debugged code 
+
+class Dinglemouse{
+
+    constructor( firstName, lastName ){
+      this.firstName = firstName;
+      this.lastName = lastName;
+    }
+    
+    getFullName(){
+      return this.firstName+" "+this.lastName
+    }
+    
   }
