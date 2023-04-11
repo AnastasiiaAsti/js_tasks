@@ -13,3 +13,5 @@ while (guess !== secretNum) {
     guess = prompt('Wrong guess, try again!')
     guess = parseInt(guess)
 }
+
+console.log('Congrats')
