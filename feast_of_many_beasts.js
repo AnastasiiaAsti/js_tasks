@@ -11,3 +11,13 @@
 // least two letters.beast and dish may contain hyphens and spaces, but these will 
 // not appear at the beginning or end of the string.They will not contain numerals.
 
+// Solution
+function feast(beast, dish) {
+    // Get the first and last letters of the beast and dish
+    const beastFirstLetter = beast.charAt(0);
+    const beastLastLetter = beast.charAt(beast.length - 1);
+    const dishFirstLetter = dish.charAt(0);
+    const dishLastLetter = dish.charAt(dish.length - 1);
+    // Check if the first and last letters match
+    return beastFirstLetter === dishFirstLetter && beastLastLetter === dishLastLetter;
+}
