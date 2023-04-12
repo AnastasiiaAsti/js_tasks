@@ -21,3 +21,8 @@ function feast(beast, dish) {
     // Check if the first and last letters match
     return beastFirstLetter === dishFirstLetter && beastLastLetter === dishLastLetter;
 }
+
+// One liner
+function feast2(beast, dish) {
+	return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
+}
